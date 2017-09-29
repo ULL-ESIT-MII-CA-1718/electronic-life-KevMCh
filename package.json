@@ -1,0 +1,25 @@
+{
+  "name": "electronic-life-kevmch",
+  "version": "1.0.0",
+  "description": "Electronic life simulation from Chapter 7 of 'Eloquent Javascript'.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ULL-ESIT-MII-CA-1718/electronic-life-KevMCh.git"
+  },
+  "keywords": [
+    "electronic-life",
+    "oop",
+    "eloquent-javascript",
+    "javascript"
+  ],
+  "author": "Kevin Martín Chinea",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ULL-ESIT-MII-CA-1718/electronic-life-KevMCh/issues"
+  },
+  "homepage": "https://github.com/ULL-ESIT-MII-CA-1718/electronic-life-KevMCh#readme"
+}
