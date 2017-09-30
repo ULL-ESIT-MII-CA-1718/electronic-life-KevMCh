@@ -1,1 +1,3 @@
-function Wall() {}
+class Wall {
+  constructor() {}
+}

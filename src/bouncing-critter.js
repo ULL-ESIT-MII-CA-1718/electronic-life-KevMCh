@@ -11,12 +11,14 @@ var directions = {
 
 var directionNames = "n ne e se s sw w nw".split(" ");
 
-function BouncingCritter() {
-  this.direction = randomElement(directionNames);
-};
+class BouncingCritter {
+  constructor() {
+    this.direction = directionNames.randomElement();
+  }
 
-BouncingCritter.prototype.act = function(view) {
-  if (view.look(this.direction) != " ")
-    this.direction = view.find(" ") || "s";
-  return {type: "move", direction: this.direction};
-};
+  act(view) {
+    if (view.look(this.direction) != " ")
+      this.direction = view.find(" ") || "s";
+    return {type: "move", direction: this.direction};
+  }
+}

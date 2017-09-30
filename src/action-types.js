@@ -44,6 +44,6 @@ actionTypes.reproduce = function(critter, vector, action) {
 
   critter.energy -= 2 * baby.energy;
   this.grid.set(dest, baby);
-  
+
   return true;
 };
