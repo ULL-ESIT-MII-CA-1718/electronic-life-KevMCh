@@ -14,3 +14,5 @@ class Plant {
       return {type: "grow"};
   }
 }
+
+module.exports = Plant;

@@ -19,3 +19,5 @@ class WallFollower {
     return {type: "move", direction: this.dir};
   }
 }
+
+module.exports = WallFollower;

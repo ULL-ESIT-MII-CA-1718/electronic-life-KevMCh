@@ -21,5 +21,13 @@
   "bugs": {
     "url": "https://github.com/ULL-ESIT-MII-CA-1718/electronic-life-KevMCh/issues"
   },
-  "homepage": "https://github.com/ULL-ESIT-MII-CA-1718/electronic-life-KevMCh#readme"
+  "homepage": "https://github.com/ULL-ESIT-MII-CA-1718/electronic-life-KevMCh#readme",
+  "devDependencies": {
+    "assert": "^1.4.1",
+    "gulp": "^3.9.1",
+    "gulp-shell": "^0.6.3",
+    "mocha": "^3.5.3",
+    "should": "^13.1.0"
+  },
+  "dependencies": {}
 }

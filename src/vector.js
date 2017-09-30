@@ -8,3 +8,5 @@ class Vector {
     return new Vector(this.x + other.x, this.y + other.y);
   }
 }
+
+module.exports = Vector;

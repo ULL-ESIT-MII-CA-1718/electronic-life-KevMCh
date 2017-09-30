@@ -16,3 +16,5 @@ class PlantEater {
       return {type: "move", direction: space};
   }
 }
+
+module.exports = PlantEater;

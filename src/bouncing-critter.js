@@ -1,3 +1,5 @@
+var Vector = require("./vector");
+
 var directions = {
   "n":  new Vector(0, -1),
   "ne": new Vector(1, -1),
@@ -22,3 +24,5 @@ class BouncingCritter {
     return {type: "move", direction: this.direction};
   }
 }
+
+module.exports = BouncingCritter;

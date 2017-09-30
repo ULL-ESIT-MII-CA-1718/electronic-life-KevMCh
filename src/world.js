@@ -108,3 +108,5 @@ class World {
     // console.log(this.toString());
   }
 }
+
+module.exports = World;
