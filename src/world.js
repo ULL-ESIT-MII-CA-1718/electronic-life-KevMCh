@@ -73,8 +73,10 @@ World.prototype.checkDestination = function(action, vector) {
 
 var cellStyles = {
   "#": 'wall',
+  "*": 'plant',
   "O": 'plant-eater',
-  "*": 'plant'
+  "o": 'bouncing-critter',
+  "~": 'wall-follower'
 };
 
 function buildCell(char){
@@ -102,5 +104,5 @@ World.prototype.toHtmlTable = function() {
 
 World.prototype.draw = function() {
   this.container.innerHTML = this.toHtmlTable();
-  console.log(this.toString());
+  // console.log(this.toString());
 };
