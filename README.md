@@ -1,5 +1,7 @@
 ## Electronic Life
 
+[![Build Status](https://travis-ci.org/ULL-ESIT-MII-CA-1718/electronic-life-KevMCh.svg?branch=master)](https://travis-ci.org/ULL-ESIT-MII-CA-1718/electronic-life-KevMCh)
+
 Electronic life simulation from ['Eloquent Javascript'](http://eloquentjavascript.net/) book ([Chapter 7](http://eloquentjavascript.net/07_elife.html)).
 
 ### License
