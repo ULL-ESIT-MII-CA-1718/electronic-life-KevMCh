@@ -1,3 +1,8 @@
+var World = require("./world");
+var View = require("./view");
+var actionTypes = require("./action-types");
+
+
 class LifelikeWorld extends World {
   constructor(map, legend, container) {
     super(map, legend, container);
@@ -17,3 +22,5 @@ class LifelikeWorld extends World {
     }
   }
 }
+
+module.exports = LifelikeWorld;

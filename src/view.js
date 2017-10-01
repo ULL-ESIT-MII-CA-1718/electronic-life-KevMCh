@@ -1,3 +1,8 @@
+var directions = require("./utils").directions;
+var directionNames = require("./utils").directionNames;
+
+var charFromElement = require("./utils").charFromElement;
+
 class View {
   constructor(world, vector) {
     this.world = world;
@@ -30,3 +35,5 @@ class View {
     return found.randomElement();
   }
 }
+
+module.exports = View;

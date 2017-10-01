@@ -1,20 +1,10 @@
-function elementFromChar(legend, ch) {
-  if (ch == " ") {
-    return null;
-  }
+var Vector = require("./vector");
+var Grid = require("./grid");
 
-  var element = new legend[ch]();
-  element.originChar = ch;
+var elementFromChar = require("./utils").elementFromChar;
+var charFromElement = require("./utils").charFromElement;
 
-  return element;
-}
-
-function charFromElement(element) {
-  if (element == null)
-    return " ";
-  else
-    return element.originChar;
-}
+var directions = require("./utils").directions;
 
 var cellStyles = {
   "#": 'wall',

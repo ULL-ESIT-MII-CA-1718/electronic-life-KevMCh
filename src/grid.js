@@ -1,3 +1,5 @@
+var Vector = require("./vector");
+
 class Grid {
   constructor(width, height) {
     this.space = new Array(width * height);
