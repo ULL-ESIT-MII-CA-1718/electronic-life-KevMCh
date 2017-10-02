@@ -1,10 +1,10 @@
-var Vector = require("./vector");
+/* var Vector = require("./vector");
 var Grid = require("./grid");
 
 var elementFromChar = require("./utils").elementFromChar;
 var charFromElement = require("./utils").charFromElement;
 
-var directions = require("./utils").directions;
+var directions = require("./utils").directions; */
 
 var cellStyles = {
   "#": 'wall',
@@ -14,10 +14,24 @@ var cellStyles = {
   "~": 'wall-follower'
 };
 
+var emoji = new EmojiConvertor();
+
+emoji.init_env();
+var auto_mode = emoji.replace_mode;
+var fenotype = {
+"#": emoji.replace_colons(":black_large_square:"),
+"O": emoji.replace_colons(":elephant:"),
+"*": emoji.replace_colons(':deciduous_tree:')
+};
+
+$("#legend").emoji();
+
 function buildCell(char){
   var css = cellStyles[char];
+  var f = fenotype[char] ||'';
+
   var output = "<td class='" + css + "'>" +
-               char + "</td>";
+               f + "</td>";
   return output;
 }
 
@@ -99,4 +113,4 @@ class World {
   }
 }
 
-module.exports = World;
+// module.exports = World;

@@ -48,4 +48,4 @@ actionTypes.reproduce = function(critter, vector, action) {
   return true;
 };
 
-module.exports = actionTypes;
+// module.exports = actionTypes;

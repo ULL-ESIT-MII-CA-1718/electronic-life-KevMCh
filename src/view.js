@@ -1,7 +1,7 @@
-var directions = require("./utils").directions;
+/* var directions = require("./utils").directions;
 var directionNames = require("./utils").directionNames;
 
-var charFromElement = require("./utils").charFromElement;
+var charFromElement = require("./utils").charFromElement; */
 
 class View {
   constructor(world, vector) {
@@ -36,4 +36,4 @@ class View {
   }
 }
 
-module.exports = View;
+// module.exports = View;

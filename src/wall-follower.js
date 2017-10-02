@@ -20,4 +20,4 @@ class WallFollower {
   }
 }
 
-module.exports = WallFollower;
+// module.exports = WallFollower;

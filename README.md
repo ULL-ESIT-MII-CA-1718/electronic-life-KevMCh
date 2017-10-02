@@ -4,6 +4,22 @@
 
 Electronic life simulation from ['Eloquent Javascript'](http://eloquentjavascript.net/) book ([Chapter 7](http://eloquentjavascript.net/07_elife.html)).
 
+##### [Electronic Life World](https://ull-esit-mii-ca-1718.github.io/electronic-life-KevMCh/)
+
+
+### Use mode
+
+1. run `npm install`
+2. Install a HTTP server: `npm install -g static-server`
+2. Install `gulp`: `npm install -g gulp`
+3. Run `gulp serve` or run `static-server -p 8080` in the command line
+4. Configure your browser to work with ECMA6 module extensions:
+    * Safari 10.1.
+    * Chrome Canary 60 – behind the Experimental Web Platform flag in chrome:flags.
+    * Firefox 54 – behind the dom.moduleScripts.enabled setting in about:config.
+    * Edge 15 – behind the Experimental JavaScript Features setting in about:flags.:
+5. [Open your browser at http://localhost:8080](http://localhost:8080)
+
 ### License
 
 The MIT License (MIT)
@@ -26,7 +42,11 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 
-#### [Electronic Life World](https://ull-esit-mii-ca-1718.github.io/electronic-life-KevMCh/)
+### Emojis
+
+* [js-emoji](https://github.com/iamcal/js-emoji)
+* [emojipedia](https://emojipedia.org)
+
 
 ### Personal Data
 * *[My GitHub Page](https://kevmch.github.io/)*

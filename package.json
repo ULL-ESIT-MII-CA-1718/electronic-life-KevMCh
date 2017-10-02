@@ -29,7 +29,9 @@
     "mocha": "^3.5.3",
     "should": "^13.1.0"
   },
-  "dependencies": {},
+  "dependencies": {
+    "emoji-js": "^3.2.2"
+  },
   "directories": {
     "test": "test"
   }

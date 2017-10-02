@@ -15,4 +15,4 @@ class Plant {
   }
 }
 
-module.exports = Plant;
+// module.exports = Plant;
