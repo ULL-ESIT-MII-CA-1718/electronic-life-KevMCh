@@ -1,3 +1,4 @@
+/* jshint esversion: 6 */
 import {elementFromChar} from "./utils.js";
 
 var actionTypes = Object.create(null);

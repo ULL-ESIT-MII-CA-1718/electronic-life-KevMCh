@@ -1,3 +1,4 @@
+/* jshint esversion: 6 */
 function dirPlus(dir, n) {
   var index = directionNames.indexOf(dir);
   return directionNames[(index + n + 8) % 8];

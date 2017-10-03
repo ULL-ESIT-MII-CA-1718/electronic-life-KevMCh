@@ -1,3 +1,4 @@
+/* jshint esversion: 6 */
 class PlantEater {
   constructor() {
     this.energy = 20;
@@ -17,4 +18,4 @@ class PlantEater {
   }
 }
 
-export {PlantEater}
+export {PlantEater};

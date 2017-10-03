@@ -1,3 +1,4 @@
+/* jshint esversion: 6 */
 import {LifelikeWorld} from "./life-like-world.js";
 import {Wall} from "./wall.js";
 import {WallFollower} from "./wall-follower.js";

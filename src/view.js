@@ -1,3 +1,4 @@
+/* jshint esversion: 6 */
 import {directions} from "./utils.js";
 import {directionNames} from "./utils.js";
 import {charFromElement} from "./utils.js";
@@ -35,4 +36,4 @@ class View {
   }
 }
 
-export {View}
+export {View};

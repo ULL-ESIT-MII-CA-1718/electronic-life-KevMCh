@@ -1,3 +1,4 @@
+/* jshint esversion: 6 */
 import {World} from "./world.js";
 import {View} from "./view.js";
 import {actionTypes} from "./action-types.js";

@@ -1,3 +1,4 @@
+/* jshint esversion: 6 */
 class Plant {
   constructor () {
     this.energy = 3 + Math.random() * 4;
@@ -15,4 +16,4 @@ class Plant {
   }
 }
 
-export {Plant}
+export {Plant};
