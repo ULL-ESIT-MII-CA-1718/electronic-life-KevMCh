@@ -1,3 +1,4 @@
+/* jshint esversion: 6 */
 class Vector {
   constructor(x, y) {
     this.x = x;
@@ -9,4 +10,4 @@ class Vector {
   }
 }
 
-export {Vector}
+export {Vector};
