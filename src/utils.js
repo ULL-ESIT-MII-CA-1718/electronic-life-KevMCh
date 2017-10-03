@@ -1,6 +1,6 @@
 "use strict";
 
-var Vector = require("./vector");
+import {Vector} from "./vector.js";
 
 var directions = {
   "n":  new Vector(0, -1),
@@ -37,7 +37,4 @@ Array.prototype.randomElement = function() {
   return this[Math.floor(Math.random() * this.length)];
 };
 
-module.exports.directions = directions;
-module.exports.directionNames = directionNames;
-module.exports.elementFromChar = elementFromChar;
-module.exports.charFromElement = charFromElement;
+export {directions, directionNames, elementFromChar, charFromElement};

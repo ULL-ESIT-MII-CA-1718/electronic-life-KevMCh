@@ -4,6 +4,8 @@
 
 Electronic life simulation from ['Eloquent Javascript'](http://eloquentjavascript.net/) book ([Chapter 7](http://eloquentjavascript.net/07_elife.html)).
 
+#### [Electronic Life World](https://ull-esit-mii-ca-1718.github.io/electronic-life-KevMCh/)
+
 ### License
 
 The MIT License (MIT)
@@ -25,8 +27,6 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
-
-#### [Electronic Life World](https://ull-esit-mii-ca-1718.github.io/electronic-life-KevMCh/)
 
 ### Personal Data
 * *[My GitHub Page](https://kevmch.github.io/)*

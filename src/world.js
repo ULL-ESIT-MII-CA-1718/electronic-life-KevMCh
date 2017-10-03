@@ -1,10 +1,9 @@
-var Vector = require("./vector");
-var Grid = require("./grid");
+import {Vector} from "./vector.js";
+import {Grid} from "./grid.js";
 
-var elementFromChar = require("./utils").elementFromChar;
-var charFromElement = require("./utils").charFromElement;
-
-var directions = require("./utils").directions;
+import {directions} from "./utils.js";
+import {elementFromChar} from "./utils.js";
+import {charFromElement} from "./utils.js";
 
 var cellStyles = {
   "#": 'wall',
@@ -99,4 +98,4 @@ class World {
   }
 }
 
-module.exports = World;
+export {World};
