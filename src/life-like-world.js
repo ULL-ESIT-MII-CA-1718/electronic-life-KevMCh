@@ -1,6 +1,6 @@
-/* var World = require("./world");
-var View = require("./view");
-var actionTypes = require("./action-types"); */
+import {World} from "./world.js";
+import {View} from "./view.js";
+import {actionTypes} from "./action-types.js";
 
 class LifelikeWorld extends World {
   constructor(map, legend, container) {
@@ -22,4 +22,4 @@ class LifelikeWorld extends World {
   }
 }
 
-// module.exports = LifelikeWorld;
+export {LifelikeWorld};

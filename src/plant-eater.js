@@ -17,4 +17,4 @@ class PlantEater {
   }
 }
 
-// module.exports = PlantEater;
+export {PlantEater}

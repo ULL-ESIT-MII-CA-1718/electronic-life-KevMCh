@@ -1,4 +1,4 @@
-// var Vector = require("./vector");
+import {Vector} from "./vector.js";
 
 class Grid {
   constructor(width, height) {
@@ -31,4 +31,4 @@ class Grid {
   }
 }
 
-// module.exports = Grid;
+export {Grid};

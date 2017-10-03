@@ -2,4 +2,4 @@ class Wall {
   constructor() {}
 }
 
-// module.exports = Wall;
+export {Wall}

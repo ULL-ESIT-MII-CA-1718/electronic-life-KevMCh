@@ -1,7 +1,6 @@
-/* var directions = require("./utils").directions;
-var directionNames = require("./utils").directionNames;
-
-var charFromElement = require("./utils").charFromElement; */
+import {directions} from "./utils.js";
+import {directionNames} from "./utils.js";
+import {charFromElement} from "./utils.js";
 
 class View {
   constructor(world, vector) {
@@ -36,4 +35,4 @@ class View {
   }
 }
 
-// module.exports = View;
+export {View}

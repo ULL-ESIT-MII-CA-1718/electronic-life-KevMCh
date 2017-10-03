@@ -1,3 +1,10 @@
+import {LifelikeWorld} from "./life-like-world.js";
+import {Wall} from "./wall.js";
+import {WallFollower} from "./wall-follower.js";
+import {BouncingCritter} from "./bouncing-critter.js";
+import {Plant} from "./plant.js";
+import {PlantEater} from "./plant-eater.js";
+
 function init () {
   var container = document.getElementById('world');
   var valley = new LifelikeWorld(

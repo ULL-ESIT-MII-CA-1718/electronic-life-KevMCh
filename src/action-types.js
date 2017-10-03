@@ -1,3 +1,5 @@
+import {elementFromChar} from "./utils.js";
+
 var actionTypes = Object.create(null);
 
 actionTypes.grow = function(critter) {
@@ -48,4 +50,4 @@ actionTypes.reproduce = function(critter, vector, action) {
   return true;
 };
 
-// module.exports = actionTypes;
+export {actionTypes};

@@ -1,4 +1,4 @@
-// var Vector = require("./vector");
+import {Vector} from "./vector.js";
 
 class BouncingCritter {
   constructor() {
@@ -12,4 +12,4 @@ class BouncingCritter {
   }
 }
 
-// module.exports = BouncingCritter;
+export {BouncingCritter};
