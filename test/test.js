@@ -1,14 +1,14 @@
-var Vector = require("../src/vector");
-var Wall = require("../src/wall");
-var WallFollower = require("../src/wall-follower");
-var Grid = require("../src/grid");
-var BouncingCritter = require("../src/bouncing-critter");
-var Plant = require("../src/plant");
-var PlantEater = require("../src/plant-eater");
-var World = require("../src/world");
-var LifelikeWorld = require("../src/life-like-world");
+import {Vector} from "/src/vector.js";
+import {Wall} from "/src/wall.js";
+import {WallFollower} from "/src/wall-follower.js";
+import {Grid} from "/src/grid.js";
+import {World} from "/src/world.js";
+import {LifelikeWorld} from "/src/life-like-world.js";
+import {BouncingCritter} from "/src/bouncing-critter.js"
+import {Plant} from "/src/plant.js";
+import {PlantEater} from "/src/plant-eater.js"
 
-var assert = require('assert');
+var assert = chai.assert;
 
 describe('Electronic life', function() {
 
@@ -122,30 +122,19 @@ describe('Electronic life', function() {
     });
   });
 
-  describe('Action types', function() {
-    var map = ["#####",
-               "#  *#",
-               "#O *#",
-               "#####"];
+  describe('Plant', function() {
+    var plant = new Plant ();
 
-    var legend = {
-      "#": Wall,
-      "~": WallFollower,
-      "o": BouncingCritter,
-      "O": PlantEater,
-      "*": Plant
-    };
+    it('Create plant', function() {
+      assert.strictEqual(plant.energy > 3, true);
+    });
+  });
 
-    var container = "<div></div>";
+  describe('Plant eater', function() {
+    var plantEater = new PlantEater();
 
-    var valley = new LifelikeWorld(map, legend, container);
-
-    it('Create lifelickeworld', function() {
-
-      assert.strictEqual(valley.grid instanceof Grid, true);
-      assert.equal(valley.legend, legend);
-      assert.strictEqual(valley.container, "<div></div>");
-      assert.strictEqual(valley instanceof World, true);
+    it('Create plant', function() {
+      assert.strictEqual(plantEater.energy, 20);
     });
   });
 });

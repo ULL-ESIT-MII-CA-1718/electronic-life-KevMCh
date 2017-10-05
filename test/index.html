@@ -1,0 +1,36 @@
+<!doctype html>
+<html class="no-js" lang="">
+  <head>
+    <title>Electronic Life Exercise</title>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="An electronic life simulator.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+    <link rel="stylesheet" href="/node_modules/mocha/mocha.css">
+    <link rel="stylesheet" href="/stylesheets/basic.css">
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>Test Electronic Life</h1>
+      <div id="world" class="world">
+      </div>
+      <div id="mocha"></div>
+    </div>
+
+    <script src="/node_modules/mocha/mocha.js"></script>
+    <script src="/node_modules/chai/chai.js"></script>
+
+    <script>mocha.setup('bdd')</script>
+
+    <script type="module" src="/test/test.js"></script>
+
+    <script type="module">
+      mocha.run();
+    </script>
+  </body>
+</html>
