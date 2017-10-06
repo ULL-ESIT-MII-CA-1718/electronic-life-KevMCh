@@ -1,12 +1,12 @@
-import {Vector} from "/src/vector.js";
-import {Wall} from "/src/wall.js";
-import {WallFollower} from "/src/wall-follower.js";
-import {Grid} from "/src/grid.js";
-import {World} from "/src/world.js";
-import {LifelikeWorld} from "/src/life-like-world.js";
-import {BouncingCritter} from "/src/bouncing-critter.js"
-import {Plant} from "/src/plant.js";
-import {PlantEater} from "/src/plant-eater.js"
+import {Vector} from "../src/vector.js";
+import {Wall} from "../src/wall.js";
+import {WallFollower} from "../src/wall-follower.js";
+import {Grid} from "../src/grid.js";
+import {World} from "../src/world.js";
+import {LifelikeWorld} from "../src/life-like-world.js";
+import {BouncingCritter} from "../src/bouncing-critter.js"
+import {Plant} from "../src/plant.js";
+import {PlantEater} from "../src/plant-eater.js"
 
 var assert = chai.assert;
 

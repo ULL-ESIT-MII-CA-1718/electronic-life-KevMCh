@@ -1,7 +1,4 @@
-node_modules/*
-!node_modules/mocha
-!node_modules/chai
-
+node_modules
 .DS_Store
 
 temp
