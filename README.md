@@ -1,11 +1,12 @@
 ## Electronic Life
 
-[![Build Status](https://travis-ci.org/ULL-ESIT-MII-CA-1718/electronic-life-KevMCh.svg?branch=master)](https://travis-ci.org/ULL-ESIT-MII-CA-1718/electronic-life-KevMCh)
-
 Electronic life simulation from ['Eloquent Javascript'](http://eloquentjavascript.net/) book ([Chapter 7](http://eloquentjavascript.net/07_elife.html)).
 
-##### [Electronic Life World](https://ull-esit-mii-ca-1718.github.io/electronic-life-KevMCh/)
+#### [Electronic Life World](https://ull-esit-mii-ca-1718.github.io/electronic-life-KevMCh/) [(test)](https://ull-esit-mii-ca-1718.github.io/electronic-life-KevMCh/test/)
 
+### Branches
+* **master** -  Basic electronic life.
+* **js-emoji** - Electronic life using the [js-emoji](https://github.com/iamcal/js-emoji).
 
 ### Use mode
 
