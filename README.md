@@ -2,7 +2,11 @@
 
 Electronic life simulation from ['Eloquent Javascript'](http://eloquentjavascript.net/) book ([Chapter 7](http://eloquentjavascript.net/07_elife.html)).
 
-#### [Electronic Life World](https://ull-esit-mii-ca-1718.github.io/electronic-life-KevMCh/)
+#### [Electronic Life World](https://ull-esit-mii-ca-1718.github.io/electronic-life-KevMCh/) [(test)](https://ull-esit-mii-ca-1718.github.io/electronic-life-KevMCh/test/)
+
+### Branches
+* **master** -  Basic electronic life.
+* **js-emoji** - Electronic life using the [js-emoji](https://github.com/iamcal/js-emoji).
 
 ### License
 
